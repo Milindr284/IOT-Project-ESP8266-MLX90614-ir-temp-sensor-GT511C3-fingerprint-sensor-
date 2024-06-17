@@ -9,8 +9,8 @@ LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);
 FPS_GT511C3 fps(D5, D6);
 
 
-const char* ssid     = "POCO PHONE";   //replace with your own SSID
-const char* password = "milindr284";    //replace with your own password
+const char* ssid     = "**********";   
+const char* password = "**********";    
 const char* host = "api.pushingbox.com";
 
 String member = "";
